@@ -64,10 +64,12 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="bg-[#f1f5f9] p-8 rounded-2xl border border-[#e2e8f0] shadow-xl">
-              <div className="aspect-video bg-[#000000] rounded-lg flex items-center justify-center text-[#ffffff] font-bold italic">
-                [Vídeo Institucional / Imagem Da Torcida]
-              </div>
+            <div className="rounded-2xl overflow-hidden shadow-xl border border-[#e2e8f0]">
+              <img 
+                src="https://botafogo.s3.us-east-1.amazonaws.com/2026/Fevereiro/2702/53816037885_4538973b1e_k.jpg" 
+                alt="Torcida do Botafogo" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
@@ -81,42 +83,45 @@ export default function Home() {
             <p className="text-[#94a3b8]">Existem dois caminhos para fazer parte da nossa constelação.</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 items-stretch">
             {/* Bloco de Presidente */}
-            <div className="bg-gradient-to-br from-[#111111] to-[#1a1a1a] p-8 rounded-3xl border border-[#333333] hover:border-[#ffffff] transition-colors group">
+            <div className="bg-gradient-to-br from-[#111111] to-[#1a1a1a] p-8 rounded-3xl border border-[#333333] hover:border-[#ffffff] transition-colors group flex flex-col">
               <div className="mb-6 text-4xl">👑</div>
               <h3 className="text-2xl font-bold mb-4">Seja um Presidente</h3>
-              <p className="text-[#94a3b8] mb-6">
+              <p className="text-[#94a3b8] mb-6 flex-grow">
                 Assuma o protagonismo e a liderança da sua região. Como Presidente, você é o representante oficial do Botafogo, responsável por organizar a torcida e fortalecer o nome do clube localmente.
               </p>
-              <div className="mb-8">
-                <p className="text-sm text-[#64748b]">
-                  * Para exercer esta função, o sócio não pode pertencer aos planos "Cria+", "Escolhido" ou "Nossa Gente".
+              <div className="mt-auto">
+                <a 
+                  href="https://wa.me/seulink" 
+                  target="_blank"
+                  className="block w-full py-4 bg-[#ffffff] text-[#000000] text-center font-bold rounded-lg hover:bg-[#cbd5e1] transition-all mb-4"
+                >
+                  Liderar Embaixada →
+                </a>
+                <p className="text-xs text-[#64748b] text-center">
+                  Sócios Cria+ , Escolhido e Nossa gente nao podem exercer essa função.
                 </p>
               </div>
-              <a 
-                href="https://wa.me/seulink" 
-                target="_blank"
-                className="block w-full py-4 bg-[#ffffff] text-[#000000] text-center font-bold rounded-lg hover:bg-[#cbd5e1] transition-all"
-              >
-                Liderar Embaixada →
-              </a>
             </div>
 
             {/* Bloco de Membro */}
-            <div className="bg-gradient-to-br from-[#111111] to-[#1a1a1a] p-8 rounded-3xl border border-[#333333] hover:border-[#ffffff] transition-colors group">
+            <div className="bg-gradient-to-br from-[#111111] to-[#1a1a1a] p-8 rounded-3xl border border-[#333333] hover:border-[#ffffff] transition-colors group flex flex-col">
               <div className="mb-6 text-4xl">🤝</div>
               <h3 className="text-2xl font-bold mb-4">Seja um Membro</h3>
-              <p className="text-[#94a3b8] mb-12">
+              <p className="text-[#94a3b8] mb-6 flex-grow">
                 Todos os planos de sócio-torcedor podem participar! Reforce seu sentimento de pertencimento, encontre sua comunidade e viva o Botafogo intensamente ao lado de outros alvinegros.
               </p>
-              <a 
-                href="https://wa.me/seulink" 
-                target="_blank"
-                className="block w-full py-4 border border-[#ffffff] text-[#ffffff] text-center font-bold rounded-lg hover:bg-[#ffffff] hover:text-[#000000] transition-all"
-              >
-                Fazer Parte Agora →
-              </a>
+              <div className="mt-auto">
+                <a 
+                  href="https://wa.me/seulink" 
+                  target="_blank"
+                  className="block w-full py-4 border border-[#ffffff] text-[#ffffff] text-center font-bold rounded-lg hover:bg-[#ffffff] hover:text-[#000000] transition-all"
+                >
+                  Fazer Parte Agora →
+                </a>
+                <div className="h-4"></div> {/* Espaçador para alinhar com o texto do bloco ao lado */}
+              </div>
             </div>
           </div>
         </div>
@@ -148,10 +153,11 @@ export default function Home() {
       <footer className="py-12 px-4 border-t border-[#111111] bg-[#000000]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-4">
-            <div className="w-10 h-12 bg-[#ffffff] flex items-center justify-center">
-              <span className="text-[#000000] font-black text-2xl">★</span>
-            </div>
-            <span className="font-bold text-xl tracking-tighter">BOTAFOGO F.R.</span>
+            <img 
+              src="https://botafogo.s3.us-east-1.amazonaws.com/2026/Fevereiro/2702/logo_botafogo.png" 
+              alt="Escudo Botafogo" 
+              className="h-16 w-auto"
+            />
           </div>
           <p className="text-[#475569] text-sm">
             © {new Date().getFullYear()} Constelação Alvinegra. Todos os direitos reservados.
