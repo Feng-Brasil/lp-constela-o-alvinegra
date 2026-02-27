@@ -39,7 +39,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a 
-              href="https://wa.me/seulink" 
+              href="https://camisa7.botafogo.com.br/planos" 
               target="_blank"
               className="px-8 py-4 bg-[#ffffff] text-[#000000] font-bold rounded-lg hover:bg-[#e2e8f0] transition-all transform hover:scale-105 text-center"
             >
@@ -104,7 +104,7 @@ export default function Home() {
               </p>
               <div className="mt-auto">
                 <a 
-                  href="https://wa.me/seulink" 
+                  href="https://camisa7.botafogo.com.br/planos" 
                   target="_blank"
                   className="block w-full py-4 bg-[#ffffff] text-[#000000] text-center font-bold rounded-lg hover:bg-[#cbd5e1] transition-all mb-4"
                 >
@@ -125,7 +125,7 @@ export default function Home() {
               </p>
               <div className="mt-auto">
                 <a 
-                  href="https://wa.me/seulink" 
+                  href="https://camisa7.botafogo.com.br/planos" 
                   target="_blank"
                   className="block w-full py-4 border border-[#ffffff] text-[#ffffff] text-center font-bold rounded-lg hover:bg-[#ffffff] hover:text-[#000000] transition-all"
                 >
@@ -147,7 +147,7 @@ export default function Home() {
           </p>
           <div className="inline-block p-[2px] rounded-lg bg-gradient-to-r from-[#ffffff] via-[#6366f1] to-[#ffffff]">
             <a 
-              href="https://sociobotafogo.com.br" 
+              href="https://camisa7.botafogo.com.br/planos" 
               target="_blank"
               className="block px-12 py-5 bg-[#000000] text-[#ffffff] font-bold rounded-lg hover:bg-transparent transition-all text-xl"
             >
