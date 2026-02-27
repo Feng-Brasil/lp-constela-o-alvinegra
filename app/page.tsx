@@ -1,17 +1,28 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#000000] text-[#ffffff] font-sans">
-      {/* Seção Superior - Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-[#000000] via-[#0a0a0a] to-[#111111] py-20 px-4">
+      {/* Seção Superior - Hero com Imagem de Fundo */}
+      <section className="relative overflow-hidden py-20 px-4 min-h-[600px] flex items-center">
+        {/* Background Image com Opacidade Reduzida */}
+        <div className="absolute inset-0 z-0">
+          <img 
+            src="https://botafogo.s3.us-east-1.amazonaws.com/2026/Fevereiro/2702/53815971689_ef91037c20_k.jpg" 
+            alt="Background Botafogo" 
+            className="w-full h-full object-cover opacity-40"
+          />
+          {/* Overlay para garantir contraste */}
+          <div className="absolute inset-0 bg-gradient-to-b from-[#000000]/80 via-[#000000]/40 to-[#000000]"></div>
+        </div>
+
         {/* Background Decorative "Stars" */}
-        <div className="absolute inset-0 opacity-30 pointer-events-none">
+        <div className="absolute inset-0 opacity-30 pointer-events-none z-10">
           <div className="absolute top-10 left-1/4 w-1 h-1 bg-white rounded-full animate-pulse"></div>
           <div className="absolute top-40 right-1/3 w-1 h-1 bg-white rounded-full animate-pulse"></div>
           <div className="absolute bottom-20 left-1/2 w-1 h-1 bg-white rounded-full animate-pulse"></div>
           <div className="absolute top-1/2 right-20 w-1 h-1 bg-white rounded-full animate-pulse"></div>
         </div>
 
-        <div className="max-w-6xl mx-auto text-center relative z-10">
+        <div className="max-w-6xl mx-auto text-center relative z-20">
           <div className="mb-6 flex justify-center">
             <span className="bg-[#ffffff] text-[#000000] px-4 py-1 rounded-full text-xs font-bold tracking-widest uppercase">
               Constelação Alvinegra
@@ -23,7 +34,7 @@ export default function Home() {
               onde o Botafogo estiver.
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-[#94a3b8] mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-[#cbd5e1] mb-10 max-w-3xl mx-auto leading-relaxed">
             O programa oficial de embaixadas que une corações alvinegros ao redor do mundo. Transforme sua torcida em uma comunidade oficial e conecte-se diretamente com o Glorioso.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -66,7 +77,7 @@ export default function Home() {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl border border-[#e2e8f0]">
               <img 
-                src="https://botafogo.s3.us-east-1.amazonaws.com/2026/Fevereiro/2702/53816037885_4538973b1e_k.jpg" 
+                src="https://botafogo.s3.us-east-1.amazonaws.com/2026/Fevereiro/2702/53814711512_7a528d1f50_k.jpg" 
                 alt="Torcida do Botafogo" 
                 className="w-full h-full object-cover"
               />
@@ -120,7 +131,7 @@ export default function Home() {
                 >
                   Fazer Parte Agora →
                 </a>
-                <div className="h-4"></div> {/* Espaçador para alinhar com o texto do bloco ao lado */}
+                <div className="h-4"></div>
               </div>
             </div>
           </div>
