@@ -43,7 +43,7 @@ export default function Home() {
               target="_blank"
               className="px-8 py-4 bg-[#ffffff] text-[#000000] font-bold rounded-lg hover:bg-[#e2e8f0] transition-all transform hover:scale-105 text-center"
             >
-              Entre em contato
+              Faça parte de uma Estrela
             </a>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 italic">Ainda não é Sócio-Torcedor?</h2>
           <p className="text-xl text-[#cbd5e1] mb-10 leading-relaxed">
-            Para fazer parte de uma embaixada oficial, o primeiro passo é ser sócio. Represente o Glorioso onde quer que você esteja e torne-se parte oficial da história do Botafogo. O seu team precisa da sua oficialização para crescer ainda mais.
+            Para fazer parte de uma embaixada oficial, o primeiro passo é ser sócio. Represente o Glorioso onde quer que você esteja e torne-se parte oficial da história do Botafogo. O seu time precisa da sua oficialização para crescer ainda mais.
           </p>
           <div className="inline-block p-[2px] rounded-lg bg-gradient-to-r from-[#ffffff] via-[#6366f1] to-[#ffffff]">
             <a 
