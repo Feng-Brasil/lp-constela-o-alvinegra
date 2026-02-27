@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
             Sua paixão brilha <br />
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#ffffff] via-[#94a3b8] to-[#475569]">
+            <span className="text-[#ffffff]">
               onde o Botafogo estiver.
             </span>
           </h1>
@@ -44,7 +44,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
-                Mais que torcida, uma rede de conexão e recompensas.
+                Mais que torcida, uma rede de conexão.
               </h2>
               <p className="text-lg text-[#475569] mb-6">
                 A <strong>Constelação Alvinegra</strong> é a ponte direta entre você e o clube. Aqui, criamos comunidades reais para que nenhum torcedor se sinta sozinho, não importa a distância.
@@ -52,15 +52,15 @@ export default function Home() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="text-[#000000] font-bold">★</span>
-                  <span><strong>Comunidade:</strong> Conecte-se com botafoguenses da sua região.</span>
+                  <span>Conecte-se com botafoguenses da sua região.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#000000] font-bold">★</span>
-                  <span><strong>Geração de Pontos:</strong> Sua participação ativa vale benefícios exclusivos.</span>
+                  <span>Sua participação ativa vale recompensas.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#000000] font-bold">★</span>
-                  <span><strong>Recompensas:</strong> Resgate experiências que só o Botafogo pode proporcionar.</span>
+                  <span>Viva experiências que só o Botafogo pode proporcionar.</span>
                 </li>
               </ul>
             </div>
@@ -89,10 +89,9 @@ export default function Home() {
               <p className="text-[#94a3b8] mb-6">
                 Assuma o protagonismo e a liderança da sua região. Como Presidente, você é o representante oficial do Botafogo, responsável por organizar a torcida e fortalecer o nome do clube localmente.
               </p>
-              <div className="mb-8 p-4 bg-[#000000] rounded-lg border border-[#222222]">
-                <p className="text-xs text-[#64748b] uppercase tracking-wider mb-2">Requisito Importante</p>
-                <p className="text-sm text-[#94a3b8]">
-                  Para exercer esta função, o sócio não pode pertencer aos planos "Cria+", "Escolhido" ou "Nossa Gente".
+              <div className="mb-8">
+                <p className="text-sm text-[#64748b]">
+                  * Para exercer esta função, o sócio não pode pertencer aos planos "Cria+", "Escolhido" ou "Nossa Gente".
                 </p>
               </div>
               <a 
@@ -104,19 +103,13 @@ export default function Home() {
               </a>
             </div>
 
-            {/* Bloco de Participante */}
+            {/* Bloco de Membro */}
             <div className="bg-gradient-to-br from-[#111111] to-[#1a1a1a] p-8 rounded-3xl border border-[#333333] hover:border-[#ffffff] transition-colors group">
               <div className="mb-6 text-4xl">🤝</div>
-              <h3 className="text-2xl font-bold mb-4">Seja um Participante</h3>
-              <p className="text-[#94a3b8] mb-6">
+              <h3 className="text-2xl font-bold mb-4">Seja um Membro</h3>
+              <p className="text-[#94a3b8] mb-12">
                 Todos os planos de sócio-torcedor podem participar! Reforce seu sentimento de pertencimento, encontre sua comunidade e viva o Botafogo intensamente ao lado de outros alvinegros.
               </p>
-              <div className="mb-8 p-4 bg-[#000000] rounded-lg border border-[#222222]">
-                <p className="text-xs text-[#64748b] uppercase tracking-wider mb-2">Vantagem</p>
-                <p className="text-sm text-[#94a3b8]">
-                  Acesso a eventos exclusivos da embaixada local e pontuação dobrada em ações específicas.
-                </p>
-              </div>
               <a 
                 href="https://wa.me/seulink" 
                 target="_blank"
@@ -134,7 +127,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-8 italic">Ainda não é Sócio-Torcedor?</h2>
           <p className="text-xl text-[#cbd5e1] mb-10 leading-relaxed">
-            Para fazer parte de uma embaixada oficial, o primeiro passo é ser sócio. Represente o Glorioso onde quer que você esteja e torne-se parte oficial da história do Botafogo. O seu time precisa da sua oficialização para crescer ainda mais.
+            Para fazer parte de uma embaixada oficial, o primeiro passo é ser sócio. Represente o Glorioso onde quer que você esteja e torne-se parte oficial da história do Botafogo. O seu team precisa da sua oficialização para crescer ainda mais.
           </p>
           <div className="inline-block p-[2px] rounded-lg bg-gradient-to-r from-[#ffffff] via-[#6366f1] to-[#ffffff]">
             <a 
